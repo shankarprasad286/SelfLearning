@@ -10,8 +10,7 @@ package virtusa.spar;
 	    public static void main(String[] args) {  
 	      
 	           // System Property for Chrome Driver   
-	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\lenovo\\Selenium Softwares\\Chromedriver\\chromedriver.exe");  
-	          
+	        System.setProperty("webdriver.chrome.driver","C:\\Users\\lenovo\\eclipse-workspace\\First\\drivers\\Chromedriver\\chromedriver.exe");
 	             // Instantiate a ChromeDriver class.     
 	        WebDriver driver=new ChromeDriver();  
 	          
